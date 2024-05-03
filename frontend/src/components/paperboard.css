@@ -1,0 +1,6 @@
+.paperboard {
+    background-color: rgb(100, 248, 248);
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
