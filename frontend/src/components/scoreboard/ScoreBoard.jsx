@@ -1,13 +1,13 @@
-
+import './scoreboard.css'
 
 const ScoreBoard = () => {
   return (
-    <div>
+    <div className="scoreBoard">
       <table>
                 <thead>
                     <tr>
                         <th scope="col">Classement</th>
-                        <th scope="col">Nom du joueur</th>
+                        <th scope="col">Joueur</th>
                         <th scope="col">Score</th>
                     </tr>
                 </thead>

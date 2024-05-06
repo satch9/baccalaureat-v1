@@ -1,0 +1,11 @@
+.scoreBoard{
+    width: 35%;
+    text-align: center;
+}
+
+/* Pour les écrans jusqu'à 600px de largeur */
+@media only screen and (max-width: 900px) {
+    .scoreBoard {
+        width: 75%;
+    }
+}

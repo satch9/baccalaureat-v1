@@ -1,0 +1,28 @@
+.paperboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Pour les écrans jusqu'à 600px de largeur */
+@media only screen and (max-width: 900px) {
+    .paperboard {
+        flex-direction: column;
+    }
+}
+
+/* Pour les écrans entre 601px et 900px de largeur */
+/* @media only screen and (min-width: 601px) and (max-width: 900px) {
+    .paperboard {
+        flex-direction: column;
+    }
+} */
+
+/* Pour les écrans supérieurs à 900px de largeur */
+/* @media only screen and (min-width: 901px) {
+    .element {
+        font-size: 20px;
+    }
+} */
